@@ -1,0 +1,37 @@
+ body{
+    background-color: #003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ form{
+    background-color: rgba(1, 1, 206, 0.747);
+    padding: 10px;
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+ }
+ form input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+  padding: 5px 10px;
+  background-color: rgba(32, 32, 238, 0.192);
+  color: white;
+  flex-basis: 200px;
+  transition: 0.7s;
+ }
+ form button{
+    background-color: rgba(32, 32, 238, 0.192);
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    flex-basis: 30px;
+    color: white;
+    cursor: pointer;
+ }
+ form input:focus{
+    background-color: #003;
+ }
